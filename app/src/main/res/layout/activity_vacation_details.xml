@@ -47,7 +47,7 @@
 
                 <EditText
                     android:id="@+id/vacationname"
-                    android:layout_width="100dp"
+                    android:layout_width="222dp"
                     android:layout_height="wrap_content" />
             </LinearLayout>
 
@@ -64,7 +64,7 @@
 
                 <EditText
                     android:id="@+id/hotelname"
-                    android:layout_width="100dp"
+                    android:layout_width="226dp"
                     android:layout_height="wrap_content" />
             </LinearLayout>
 

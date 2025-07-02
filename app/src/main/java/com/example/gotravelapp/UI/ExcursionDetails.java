@@ -21,12 +21,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-//import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
 import androidx.core.net.ParseException;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.example.gotravelapp.R;
 import com.example.gotravelapp.database.Repository;
@@ -36,9 +32,7 @@ import com.example.gotravelapp.entities.Vacation;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.List;
 import java.util.Locale;
-import java.util.Random;
 
 public class ExcursionDetails extends AppCompatActivity {
     String excursionName;
@@ -123,7 +117,6 @@ public class ExcursionDetails extends AppCompatActivity {
             }
         }
     }
-
     private void updateLabelStart () {
         String myFormat = "MM/dd/yy";
         SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
@@ -147,20 +140,6 @@ public class ExcursionDetails extends AppCompatActivity {
         }
     }
 
-
-
-
-//    public boolean isValidDate(String dateStr) {
-//        SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yy", Locale.US);
-//        sdf.setLenient(false); // strict parsing
-//
-//        try {
-//            sdf.parse(dateStr);
-//            return true;
-//        } catch (ParseException | java.text.ParseException e) {
-//            return false;
-//        }
-//    }
 
     public boolean onCreateOptionsMenu (Menu menu){
         getMenuInflater().inflate(R.menu.menu_excursion_details, menu);

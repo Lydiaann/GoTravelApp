@@ -35,7 +35,7 @@ public class Vacation {
     }
 
     public String toString() {
-        return vacationName;
+        return vacationName + " (" + startDate + " - " + endDate + ")";
     }
 
     public void setVacationID(int vacationID) {
