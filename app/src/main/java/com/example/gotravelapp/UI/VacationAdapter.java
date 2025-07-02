@@ -14,9 +14,20 @@ import com.example.gotravelapp.R;
 import com.example.gotravelapp.entities.Excursion;
 import com.example.gotravelapp.entities.Vacation;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class VacationAdapter extends RecyclerView.Adapter<VacationAdapter.VacationViewHolder> {
+
+    private List<Vacation> filteredVacations = new ArrayList<>();
+    private List<Vacation> allVacations = new ArrayList<>();
+    private final Context context;
+    private final LayoutInflater mInflater;
+
+    public VacationAdapter(Context context) {
+        mInflater = LayoutInflater.from(context);
+        this.context = context;
+    }
 
     public class VacationViewHolder extends RecyclerView.ViewHolder {
         private final TextView vacationItemView;
@@ -24,13 +35,11 @@ public class VacationAdapter extends RecyclerView.Adapter<VacationAdapter.Vacati
         public VacationViewHolder(@NonNull View itemView) {
             super(itemView);
             vacationItemView = itemView.findViewById(R.id.textView2);
-            itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    int position = getAdapterPosition();
-                    final Vacation current= mVacations.get(position);
+            itemView.setOnClickListener(view -> {
+                int position = getAdapterPosition();
+                if (position != RecyclerView.NO_POSITION) {
+                    Vacation current = filteredVacations.get(position);
                     Intent intent = new Intent(context, VacationDetails.class);
-
                     intent.putExtra("id", current.getVacationID());
                     intent.putExtra("name", current.getVacationName());
                     intent.putExtra("hotel", current.getVacationHotel());
@@ -42,47 +51,46 @@ public class VacationAdapter extends RecyclerView.Adapter<VacationAdapter.Vacati
         }
     }
 
-    private static List<Vacation> mVacations;
-    private final Context context;
-    private final LayoutInflater mInflater;
-
-    public VacationAdapter(Context context) {
-        mInflater= LayoutInflater.from(context);
-        this.context=context;
-    }
-
     @NonNull
     @Override
     public VacationViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View itemView=mInflater.inflate(R.layout.vacation_list_item,parent, false);
+        View itemView = mInflater.inflate(R.layout.vacation_list_item, parent, false);
         return new VacationViewHolder(itemView);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull VacationAdapter.VacationViewHolder holder, int position) {
-        if(mVacations!=null) {
-            Vacation current = mVacations.get(position);
-            String name = current.getVacationName();
-            holder.vacationItemView.setText(name);
-        }
-        else {
+    public void onBindViewHolder(@NonNull VacationViewHolder holder, int position) {
+        if (!filteredVacations.isEmpty()) {
+            Vacation current = filteredVacations.get(position);
+            holder.vacationItemView.setText(current.getVacationName());
+        } else {
             holder.vacationItemView.setText("No vacation name");
         }
     }
-    public void setVacations(List<Vacation> vacations) {
-        mVacations=vacations;
-        notifyDataSetChanged();
-    }
-    public void setExcursions(List<Excursion> filteredExcursions) {
-    }
-
     @Override
     public int getItemCount() {
-        if(mVacations!=null) {
-            return mVacations.size();
+        return filteredVacations.size();
+    }
+
+    public void setVacations(List<Vacation> vacations) {
+        allVacations = new ArrayList<>(vacations);
+        filteredVacations = new ArrayList<>(vacations);
+        notifyDataSetChanged();
+    }
+
+    public void filter(String query) {
+        if (query == null || query.trim().isEmpty()) {
+            filteredVacations = new ArrayList<>(allVacations);
+        } else {
+            List<Vacation> filteredList = new ArrayList<>();
+            String lowerQuery = query.toLowerCase();
+            for (Vacation vacation : allVacations) {
+                if (vacation.getVacationName().toLowerCase().contains(lowerQuery)) {
+                    filteredList.add(vacation);
+                }
+            }
+            filteredVacations = filteredList;
         }
-        else {
-            return 0;
-        }
+        notifyDataSetChanged();
     }
 }
