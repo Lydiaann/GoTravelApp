@@ -1,16 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_excursion_details.xml">
+        <config>
+          <theme>@style/Theme.GoTravelApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.GoTravelApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_vacation_details.xml">
+        <config>
+          <theme>@style/Theme.GoTravelApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_vacation_list.xml">
+        <config>
+          <theme>@style/Theme.GoTravelApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/excursion_list_item.xml">
+        <config>
+          <theme>@style/Theme.GoTravelApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/vacation_list_item.xml">
+        <config>
+          <theme>@style/Theme.GoTravelApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/menu_excursion_details.xml">
+        <config>
+          <theme>@style/Theme.GoTravelApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/menu_vacation_details.xml">
+        <config>
+          <theme>@style/Theme.GoTravelApp</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/menu_vacation_list.xml">
+        <config>
+          <theme>@style/Theme.GoTravelApp</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8625457-331e-49ef-9999-ad7b2c05a17f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AndroidProjectSystem.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" />
+    <list default="true" id="8138cd3f-761d-4bd1-80ff-4b5863c192b0" name="Changes" comment="Adds .zip to repo">
+      <change afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/render.experimental.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/database/vacationDatabaseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/database/vacationDatabaseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,30 +86,32 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\lydia\.android\avd\Medium_Phone.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="GoTravelApp" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\lydia\Key Store Path\keystore.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLabMergeRequestFiltersHistory">{
@@ -58,32 +126,54 @@
 }</component>
   <component name="GitLabMergeRequestsSettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;first&quot;: &quot;https://gitlab.com/wgu-gitlab-environment/student-repos/Lydiastiles/d424-software-engineering-capstone.git&quot;,
+    &quot;first&quot;: &quot;https://gitlab.com/wgu-gitlab-environment/student-repos/Lydiastiles/d308-mobile-application-development-android.git&quot;,
     &quot;second&quot;: &quot;057cc390-13c8-4ee9-a27f-6920a6a9b612&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2zFKyiqxAIhh10l6C7IXDs0Klw2" />
+  <component name="ProjectId" id="2ye29zDuD0ik0tBTEOl35Id7qmC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Android App.app.executor": "Run",
+    "ApkExportedModule": "GoTravelApp.app",
+    "ExportApk.ApkPathForGoTravelApp.app": "D:\\GoTravelApp\\app",
+    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender may affect IDE",
+    "Notification.DoNotAsk-WindowsDefender": "true",
+    "PROJECT_TRUSTED_KEY": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
     "git-widget-placeholder": "WorkingBranch",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/D308"
+    "last_opened_file_path": "D:/GoTravelApp",
+    "settings.editor.selected.configurable": "emulator"
+  },
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "debug",
+      "release"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="android.template.1584966629">
+      <recent name="com.example.gotravelapp.UI" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="GoTravelApp.app" />
@@ -161,12 +251,460 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a8625457-331e-49ef-9999-ad7b2c05a17f" name="Changes" comment="" />
-      <created>1751321637974</created>
+      <changelist id="8138cd3f-761d-4bd1-80ff-4b5863c192b0" name="Changes" comment="" />
+      <created>1750180570987</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1751321637974</updated>
+      <updated>1750180570987</updated>
     </task>
+    <task id="LOCAL-00004" summary="Adds sample vacation and excursions (lines 53-61) in VacationList.java. &#10;Fixes bugs in code that prevented gradle from building (lines 33-40) in build.gradle(:app). -- not sure if need these --&#10;Comments out EdgeToEdge for now on MainActivity.java, ExcursionDetails.java abd VacationDetails.java.">
+      <option name="closed" value="true" />
+      <created>1750368928973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1750368928973</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Creates recyclerView in activity_vacation_details.xml (lines 109-116). Adds scrollView, TextViews, EditTexts, Linear Layouts and changes fab color (line 16).&#10;Creates recyclerView in VacationList.java (lines 44-50 , 88-96). Moved onOptionsItemSelected to lines 62 - 65.&#10;&#10;VacationAdapter.java is created. &#10;&#10;Changes constraints for activity_vacation_list.xml (lines 19 and 22) and adds color (line 16). Adds recyclerView (lines 25-32)&#10;&#10;Adds font to MainActivity.java.&#10;&#10;Adds string values to string.xml (lines 5, 6).&#10;&#10;Updates line 30, 77 in Repository.java to be mallVacations.">
+      <option name="closed" value="true" />
+      <created>1750376951187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750376951187</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Organizes code, deletes whitespace.">
+      <option name="closed" value="true" />
+      <created>1750439876986</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750439876986</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Organizes code, deletes whitespace.">
+      <option name="closed" value="true" />
+      <created>1750440353817</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750440353817</updated>
+    </task>
+    <task id="LOCAL-00008" summary="VacationAdapter.java - rearranged getItemCount method (lines 77-85) and VacationAdapter method (lines 44-52). Added Hotel to onClick method (line 36).">
+      <option name="closed" value="true" />
+      <created>1750449022724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750449022724</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updates Vacation.java with Hotel getters, setters and constructor. (Lines 12, 31-34, 52, 55).">
+      <option name="closed" value="true" />
+      <created>1750449085690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750449085690</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updates layout constraints and formatting&#10;vacation_list_item (lines 6,7,11,13-16,19, 20).&#10;activity_vacation_list (lines 27,28).">
+      <option name="closed" value="true" />
+      <created>1750449201713</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750449201713</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updates hotel info in VacationList.java (line 69), changes getmAllVacations to be getAllVacations on two files:&#10;&#10;VacationList.java--(lines 45,46 ,69) &#10;&#10;Repository.java--(line 30).">
+      <option name="closed" value="true" />
+      <created>1750449444383</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750449444383</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adds insert, update and delete to VacationDAO file. (lines 19, 22, 25)">
+      <option name="closed" value="true" />
+      <created>1750535300281</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750535300281</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Refactor VacationList (lines 31-33, 36, 37, 40, 70) to ensure RecyclerView works on activity_vacation_list.xml.">
+      <option name="closed" value="true" />
+      <created>1750535441195</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1750535441195</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Create file VacationAdapter.java to display data from database.">
+      <option name="closed" value="true" />
+      <created>1750535522327</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1750535522327</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adds onOptionsItemSelected (lines 74-101) to save vacations to the database.&#10;RecyclerView added (lines 40-45).&#10;Declares variables (lines 47 - 59).&#10;&#10;Updates database version in vacationDatabaseBuilder.java (line 15).">
+      <option name="closed" value="true" />
+      <created>1750535701064</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1750535701064</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Creates file ExcursionAdapter.java and excursion_list_item.xml with textviews to display data.">
+      <option name="closed" value="true" />
+      <created>1750535782823</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1750535782823</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Changes line 27 to be: SELECT * FROM VACATIONS. (Was previously: SELECT * FROM EXCURSIONS)">
+      <option name="closed" value="true" />
+      <created>1750627795287</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1750627795287</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changes line 18 to be REPLACE instead of IGNORE in VacationDAO.java.&#10;Refactor code with CI (lines 53, 60, 89, 90) in VacationDetails.java, (lines 97-11) adds delete and save options for vacations and (lines 115-137) adds&#10;example excursions.">
+      <option name="closed" value="true" />
+      <created>1750640388599</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1750640388599</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Makes variables final on (lines 16,17,22) Repository.java.">
+      <option name="closed" value="true" />
+      <created>1750640495446</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1750640495446</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Adds another method for Excursion to provide data to the database and have it read the @Ignore method so it knows to auto increment the excursionID. (lines 16 - 21).">
+      <option name="closed" value="true" />
+      <created>1750640613401</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1750640613401</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Comments out lines 64, 66, 69. Fixes line 42 to have the correct name for excursionDate. Adds line 41 to include vacationID.">
+      <option name="closed" value="true" />
+      <created>1750640682235</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1750640682235</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Adds additional vacation sample on line 61. &#10;Removes id's from new sample data (lines 59,63,65) so the database will auto increment it on its own.">
+      <option name="closed" value="true" />
+      <created>1750640790007</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1750640790007</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changes database version (line 15) of vacationDatabaseBuilder.java.&#10;Adds additional Vacation method to Vacation.java for auto increment to function correctly (lines 17-32). Regenerate getters and setters.">
+      <option name="closed" value="true" />
+      <created>1750640920787</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1750640920787</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Changes database version (line 15) of vacationDatabaseBuilder.java.&#10;Adds additional Vacation method to Vacation.java for auto increment to function correctly (lines 17-32). Regenerate getters and setters.&#10;Adds method setExcursions to line 76 in VacationAdapter.java.">
+      <option name="closed" value="true" />
+      <created>1750641003590</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1750641003590</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fixes typo on lines 134, 135">
+      <option name="closed" value="true" />
+      <created>1750686523931</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1750686523931</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Declares variables in ExcursionDetails.java (lines 40 - 49)&#10;Adds save, delete, share and notify options.&#10;Adds datePickerDialog method (lines 78 - 87)">
+      <option name="closed" value="true" />
+      <created>1750711976814</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1750711976814</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Declares numAlert line 18">
+      <option name="closed" value="true" />
+      <created>1750712006754</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1750712006754</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Adds line 75, 77 to VacationDetails.java. Fixes missing }. &#10;Adds strings to strings.xml file.">
+      <option name="closed" value="true" />
+      <created>1750712114361</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1750712114361</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Adds delete option to menu on menu_excursion_details.xml and adds strings to strings.xml file.&#10;Adds background colors to activity_excursion_details.xml">
+      <option name="closed" value="true" />
+      <created>1750712244498</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1750712244498</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Creates MyReceiver file for notifications">
+      <option name="closed" value="true" />
+      <created>1750712275561</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1750712275561</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fixes bug for saving excursions. Date was not saving in database, but now is.">
+      <option name="closed" value="true" />
+      <created>1750883194151</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1750883194151</updated>
+    </task>
+    <task id="LOCAL-00032" summary="reformats code to show all vacation details (lines 66, 67, 121-123). Adds date picker for vacations (lines 33, 34, 72 - 111).&#10;&#10;Adds comments to activity_vacation_details.xml">
+      <option name="closed" value="true" />
+      <created>1750884993331</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1750884993331</updated>
+    </task>
+    <task id="LOCAL-00033" summary="reformats code on lines 13, 16, 22, 25 so names and dates are in correct spots.&#10;&#10;fix lines 31 in ExcursionDAO to have an 'm'">
+      <option name="closed" value="true" />
+      <created>1750885124362</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1750885124362</updated>
+    </task>
+    <task id="LOCAL-00034" summary="reformats code on lines 13, 16, 22, 25 so names and dates are in correct spots.&#10;&#10;fixes repository to have an 'm' on line 75.">
+      <option name="closed" value="true" />
+      <created>1750885210952</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1750885210952</updated>
+    </task>
+    <task id="LOCAL-00035" summary="B2:&#10;Displays title, hotel, start and end dates for each vacation.">
+      <option name="closed" value="true" />
+      <created>1750885311217</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1750885311217</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Edits constraints for textViews">
+      <option name="closed" value="true" />
+      <created>1750885439281</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1750885439281</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Moves recyclerView from line 53 to 79.&#10;Moves floating action button from line 124 to 88.&#10;Moves Date picker setup from line 85 to 100.&#10;Rearranges code to be more legible and less cluttered.&#10;Fixes indentation.&#10;Adds comments for clarity.">
+      <option name="closed" value="true" />
+      <created>1750893068811</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1750893068811</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Adds spinner to ExcursionDetails (lines 100-104) and activity_excursion_details.xml (lines 76-86).">
+      <option name="closed" value="true" />
+      <created>1750893162161</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1750893162161</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Updates vacationID for added sample excursions lines 63,65">
+      <option name="closed" value="true" />
+      <created>1750893209017</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1750893209017</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Adds the date to be displayed for excursions. (line 65).&#10;Puts excursionItemView2 to use. (line 68).">
+      <option name="closed" value="true" />
+      <created>1750893277274</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1750893277274</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Adds toString() to vacation to display vacation name on excursion list page. (lines 37-39)">
+      <option name="closed" value="true" />
+      <created>1750893374913</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1750893374913</updated>
+    </task>
+    <task id="LOCAL-00042" summary="B3. Includes validation that the dates are in the right format, and end date is after start date.  &#10;&#10;VacationDetails.java (Lines 157 - 183) adds date validation.&#10;ExcursionDetails.java (lines 124 - 160) adds date validation for excursion to be in the vacation dates.">
+      <option name="closed" value="true" />
+      <created>1750895783307</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1750895783307</updated>
+    </task>
+    <task id="LOCAL-00043" summary="B4 Includes the details for each excursion including title and date. &#10;&#10;Adds a confirmation for each time a new excursion is added or deleted and updates the previous page.&#10;&#10;Lines 118-132 creates the pop up method.">
+      <option name="closed" value="true" />
+      <created>1750897375266</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1750897375266</updated>
+    </task>
+    <task id="LOCAL-00044" summary="B5 &#10;a.  Display a detailed view of the excursion, including the title, and date. (activity_vacation_details.xml)&#10;&#10;b.  Enter, edit, and delete excursion information. (lines 215-280 to save) (lines 321-338 to delete).&#10;&#10;c.  Include validation that the input dates are formatted correctly. (line 274-280)&#10;&#10;d.  Include an alert that the user can set that will trigger on the excursion date, stating the excursion title. (line 295-318)&#10;&#10;e.  Include validation that the excursion date is during the associated vacation. (lines 247-258).">
+      <option name="closed" value="true" />
+      <created>1750966631177</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1750966631177</updated>
+    </task>
+    <task id="LOCAL-00045" summary="B3 a.  Display a detailed view of the vacation, including all vacation details. This view can also be used to add and update the vacation information. (activity_vacation_details.xml)&#10;   &#10;   &#10;   VacationDetails.java:&#10;   &#10;   b.  Enter, edit, and delete vacation information. (lines 215-249 to save and update) (lines 251-268 to delete) &#10;   &#10;   c.  Include validation that the input dates are formatted correctly. (lines 222-225)&#10;   &#10;   d.  Include validation that the vacation end date is after the start date. (lines 232-235)&#10;   &#10;   e.  Include an alert that the user can set which will trigger on the start and end date, displaying the vacation title and whether it is starting or ending. (lines 270-306)&#10;   &#10;   f.  Include sharing features so the user can share all the vacation details via a sharing feature (either e-mail, clipboard or SMS) that automatically populates with the vacation details. (lines 308-327)&#10;   &#10;   g.  Display a list of excursions associated with each vacation.(line 318,320)">
+      <option name="closed" value="true" />
+      <created>1751043609310</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1751043609310</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Adds notification and share items to menu_vacation_details.xml. (line 12,13) and (line 15,16).">
+      <option name="closed" value="true" />
+      <created>1751043754133</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1751043754133</updated>
+    </task>
+    <task id="LOCAL-00047" summary="vacationDatabaseBuilder.java: updates database version on line 15.&#10;&#10;ExcursionAdapter.java: updates &quot;excursionName&quot; on line 40.">
+      <option name="closed" value="true" />
+      <created>1751043952917</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1751043952917</updated>
+    </task>
+    <task id="LOCAL-00048" summary="MyReceiver.java: updates for vacation alerts: line 29. &#10;&#10;MainActivity.java: removes unused imports.">
+      <option name="closed" value="true" />
+      <created>1751044090017</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1751044090017</updated>
+    </task>
+    <task id="LOCAL-00049" summary="cleans up whitespace and updates manifest">
+      <option name="closed" value="true" />
+      <created>1751044145882</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1751044145882</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Adds excursion prompt for when a new excursion is added. line 267&#10;&#10;Updates vacationDatabaseBuilder.java version on line 15&#10;&#10;Creates APK">
+      <option name="closed" value="true" />
+      <created>1751071303729</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1751071303729</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Adds README.md file">
+      <option name="closed" value="true" />
+      <created>1751074839659</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1751074839660</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Adds .zip to repo">
+      <option name="closed" value="true" />
+      <created>1751076011636</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1751076011636</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adds line 75, 77 to VacationDetails.java. Fixes missing }. &#10;Adds strings to strings.xml file." />
+    <MESSAGE value="Adds delete option to menu on menu_excursion_details.xml and adds strings to strings.xml file.&#10;Adds background colors to activity_excursion_details.xml" />
+    <MESSAGE value="Creates MyReceiver file for notifications" />
+    <MESSAGE value="Fixes bug for saving excursions. Date was not saving in database, but now is." />
+    <MESSAGE value="reformats code to show all vacation details (lines 66, 67, 121-123). Adds date picker for vacations (lines 33, 34, 72 - 111).&#10;&#10;Adds comments to activity_vacation_details.xml" />
+    <MESSAGE value="reformats code on lines 13, 16, 22, 25 so names and dates are in correct spots.&#10;&#10;fix lines 31 in ExcursionDAO to have an 'm'" />
+    <MESSAGE value="reformats code on lines 13, 16, 22, 25 so names and dates are in correct spots.&#10;&#10;fixes repository to have an 'm' on line 75." />
+    <MESSAGE value="B2:&#10;Displays title, hotel, start and end dates for each vacation." />
+    <MESSAGE value="Edits constraints for textViews" />
+    <MESSAGE value="Moves recyclerView from line 53 to 79.&#10;Moves floating action button from line 124 to 88.&#10;Moves Date picker setup from line 85 to 100.&#10;Rearranges code to be more legible and less cluttered.&#10;Fixes indentation.&#10;Adds comments for clarity." />
+    <MESSAGE value="Adds spinner to ExcursionDetails (lines 100-104) and activity_excursion_details.xml (lines 76-86)." />
+    <MESSAGE value="Updates vacationID for added sample excursions lines 63,65" />
+    <MESSAGE value="Adds the date to be displayed for excursions. (line 65).&#10;Puts excursionItemView2 to use. (line 68)." />
+    <MESSAGE value="Adds toString() to vacation to display vacation name on excursion list page. (lines 37-39)" />
+    <MESSAGE value="B3. Includes validation that the dates are in the right format, and end date is after start date.  &#10;&#10;VacationDetails.java (Lines 157 - 183) adds date validation.&#10;ExcursionDetails.java (lines 124 - 160) adds date validation for excursion to be in the vacation dates." />
+    <MESSAGE value="B4 Includes the details for each excursion including title and date. &#10;&#10;Adds a confirmation for each time a new excursion is added or deleted and updates the previous page.&#10;&#10;Lines 118-132 creates the pop up method." />
+    <MESSAGE value="B5 &#10;a.  Display a detailed view of the excursion, including the title, and date. (activity_vacation_details.xml)&#10;&#10;b.  Enter, edit, and delete excursion information. (lines 215-280 to save) (lines 321-338 to delete).&#10;&#10;c.  Include validation that the input dates are formatted correctly. (line 274-280)&#10;&#10;d.  Include an alert that the user can set that will trigger on the excursion date, stating the excursion title. (line 295-318)&#10;&#10;e.  Include validation that the excursion date is during the associated vacation. (lines 247-258)." />
+    <MESSAGE value="B3 a.  Display a detailed view of the vacation, including all vacation details. This view can also be used to add and update the vacation information. (activity_vacation_details.xml)&#10;   &#10;   &#10;   VacationDetails.java:&#10;   &#10;   b.  Enter, edit, and delete vacation information. (lines 215-249 to save and update) (lines 251-268 to delete) &#10;   &#10;   c.  Include validation that the input dates are formatted correctly. (lines 222-225)&#10;   &#10;   d.  Include validation that the vacation end date is after the start date. (lines 232-235)&#10;   &#10;   e.  Include an alert that the user can set which will trigger on the start and end date, displaying the vacation title and whether it is starting or ending. (lines 270-306)&#10;   &#10;   f.  Include sharing features so the user can share all the vacation details via a sharing feature (either e-mail, clipboard or SMS) that automatically populates with the vacation details. (lines 308-327)&#10;   &#10;   g.  Display a list of excursions associated with each vacation.(line 318,320)" />
+    <MESSAGE value="Adds notification and share items to menu_vacation_details.xml. (line 12,13) and (line 15,16)." />
+    <MESSAGE value="vacationDatabaseBuilder.java: updates database version on line 15.&#10;&#10;ExcursionAdapter.java: updates &quot;excursionName&quot; on line 40." />
+    <MESSAGE value="MyReceiver.java: updates for vacation alerts: line 29. &#10;&#10;MainActivity.java: removes unused imports." />
+    <MESSAGE value="cleans up whitespace and updates manifest" />
+    <MESSAGE value="Adds excursion prompt for when a new excursion is added. line 267&#10;&#10;Updates vacationDatabaseBuilder.java version on line 15&#10;&#10;Creates APK" />
+    <MESSAGE value="Adds README.md file" />
+    <MESSAGE value="Adds .zip to repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds .zip to repo" />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.example.gotravelapp">
+          <value>
+            <CheckInfo lastCheckTimestamp="1751469279215" />
+          </value>
+        </entry>
+        <entry key="com.example.gotravelapp.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1751469279215" />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
