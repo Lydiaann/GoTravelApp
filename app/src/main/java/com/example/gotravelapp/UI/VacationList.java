@@ -19,6 +19,9 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
 import java.util.List;
 
+import java.util.concurrent.Executors;
+import android.widget.Button;
+
 public class VacationList extends AppCompatActivity {
     private Repository repository;
     private List<Vacation> allVacations = new ArrayList<>();
@@ -27,14 +30,15 @@ public class VacationList extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_vacation_list);
 
+// Floating Action button
         FloatingActionButton fab = findViewById(R.id.floatingActionButton);
         fab.setOnClickListener(v -> {
             Intent intent = new Intent(VacationList.this, VacationDetails.class);
             startActivity(intent);
         });
+// Recycler View
         RecyclerView recyclerView = findViewById(R.id.recyclerview);
         repository = new Repository(getApplication());
 
@@ -44,8 +48,16 @@ public class VacationList extends AppCompatActivity {
 
         allVacations = repository.getAllVacations();
         vacationAdapter.setVacations(allVacations);
-//        System.out.println(getIntent().getStringExtra("Test"));
 
+        Button btnGenerate = findViewById(R.id.btnGenerateCSV);
+
+        btnGenerate.setOnClickListener(v -> {
+            Executors.newSingleThreadExecutor().execute(() -> {
+                List<Vacation> vacations = repository.getAllVacations();  // or vacationDao.getAllVacations()
+                generateCSVReport(vacations);
+            });
+        });
+// Search View
         SearchView searchView = findViewById(R.id.searchView);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -60,6 +72,25 @@ public class VacationList extends AppCompatActivity {
             }
         });
     }
+// Generate Report
+    private void generateCSVReport(List<Vacation> vacations) {
+        StringBuilder reportBuilder = new StringBuilder();
+        reportBuilder.append("Vacation Name, Start Date, End Date\n");
+
+        for (Vacation v : vacations) {
+            reportBuilder.append(v.getVacationName()).append(", ")
+                    .append(v.getStartDate()).append(", ")
+                    .append(v.getEndDate()).append("\n");
+        }
+
+        String reportText = reportBuilder.toString();
+
+        // Start ReportActivity and pass the report text
+        Intent intent = new Intent(this, ReportActivity.class);
+        intent.putExtra("reportText", reportText);
+
+        runOnUiThread(() -> startActivity(intent));
+    }
 
     private void filterVacations(String query) {
         vacationAdapter.filter(query);
@@ -70,6 +101,7 @@ public class VacationList extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_vacation_list, menu);
         return true;
     }
+// Back option
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
