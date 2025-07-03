@@ -6,53 +6,66 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.example.gotravelapp.R;
+import com.example.gotravelapp.database.Repository;
+import com.example.gotravelapp.entities.User;
 import com.google.android.material.textfield.TextInputEditText;
+
+import com.example.gotravelapp.utils.PasswordUtils;
+
+import java.util.concurrent.Executors;
 
 public class LoginActivity extends AppCompatActivity {
 
     private TextInputEditText usernameEditText, passwordEditText;
     private Button loginButton;
     private TextView registerTextView;
-
+    private Repository repository;
     // Example hardcoded credentials
     private final String validUsername = "Admin";
     private final String validPassword = "Password123";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login); // XML layout filename
-
+        repository = new Repository(getApplication());
         usernameEditText = findViewById(R.id.usernameEditText);
         passwordEditText = findViewById(R.id.passwordEditText);
         loginButton = findViewById(R.id.loginButton);
         registerTextView = findViewById(R.id.registerTextView);
 
+        Executors.newSingleThreadExecutor().execute(() -> {
+            User user = new User();
+            user.setUsername("Admin");
+            user.setPasswordHash(PasswordUtils.hashPassword("Password123"));
+            repository.insertUser(user); //
+        });
+
         loginButton.setOnClickListener(v -> {
             String username = usernameEditText.getText().toString().trim();
             String password = passwordEditText.getText().toString().trim();
+            String hash = PasswordUtils.hashPassword(password);
 
-            if (username.equals(validUsername) && password.equals(validPassword)) {
-                // Login successful – go to MainActivity
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                startActivity(intent);
-                finish(); // Close LoginActivity so user can't return with back button
-            } else {
-                // Invalid credentials
-                Toast.makeText(this, "Invalid username or password", Toast.LENGTH_SHORT).show();
-            }
+            Executors.newSingleThreadExecutor().execute(() -> {
+                User user = repository.getUserByUsername(username);
+                if (user != null && user.getPasswordHash().equals(hash)) {
+                    runOnUiThread(() -> {
+                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                        startActivity(intent);
+                        finish();
+                    });
+                } else {
+                    runOnUiThread(() -> {
+                        Toast.makeText(this, "Invalid credentials", Toast.LENGTH_SHORT).show();
+                    });
+                }
+            });
         });
-
         registerTextView.setOnClickListener(v -> {
-            // Optional: go to registration screen if you build one
-            Toast.makeText(this, "Registration screen not implemented yet", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+            startActivity(intent);
         });
     }
 }
