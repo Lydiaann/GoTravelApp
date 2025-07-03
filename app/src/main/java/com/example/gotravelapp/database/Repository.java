@@ -4,8 +4,10 @@ import android.app.Application;
 import android.util.Log;
 
 import com.example.gotravelapp.dao.ExcursionDAO;
+import com.example.gotravelapp.dao.UserDAO;
 import com.example.gotravelapp.dao.VacationDAO;
 import com.example.gotravelapp.entities.Excursion;
+import com.example.gotravelapp.entities.User;
 import com.example.gotravelapp.entities.Vacation;
 
 import java.util.List;
@@ -15,7 +17,7 @@ import java.util.concurrent.Executors;
 public class Repository {
     private final ExcursionDAO mExcursionDAO;
     private final VacationDAO mVacationDAO;
-
+    private final UserDAO userDao;
     private List<Vacation> mAllVacations;
     private List<Excursion> mAllExcursions;
 
@@ -26,6 +28,7 @@ public class Repository {
         vacationDatabaseBuilder db=vacationDatabaseBuilder.getDatabase(application);
         mExcursionDAO = db.excursionDAO();
         mVacationDAO = db.vacationDAO();
+        userDao = db.userDao();
     }
 
     public List<Vacation>getAllVacations() {
@@ -70,6 +73,8 @@ public class Repository {
         }
     }
 
+
+//    Excursion information
     public List<Excursion>getAllExcursions(){
         databaseExecutor.execute(()-> {
             mAllExcursions=mExcursionDAO.getmAllExcursions();
@@ -112,6 +117,21 @@ public class Repository {
             e.printStackTrace();
         }
     }
+//      User information
+    public void insertUser(User user) {
+        Executors.newSingleThreadExecutor().execute(() -> {
+            userDao.insert(user);
+        });
+    }
+
+    public User getUserByUsername(String username) {
+        return userDao.getUserByUsername(username);
+    }
+
+    public List<User> getAllUsers() {
+        return userDao.getAllUsers();
+    }
+
     public Vacation getVacationId(int vacationID) {
         return null;
     }
