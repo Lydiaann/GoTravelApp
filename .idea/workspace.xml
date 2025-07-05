@@ -30,11 +30,6 @@
           <theme>@style/Theme.GoTravelApp</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login2.xml">
-        <config>
-          <theme>@style/Theme.GoTravelApp</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
           <theme>@style/Theme.GoTravelApp</theme>
@@ -91,36 +86,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8138cd3f-761d-4bd1-80ff-4b5863c192b0" name="Changes" comment="Adds user information to Repository.java (lines 120-133)">
-      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.11.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="8138cd3f-761d-4bd1-80ff-4b5863c192b0" name="Changes" comment="Adds all other background files from res, gradle and mipmap.">
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/UI/ExcursionDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/UI/ExcursionDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/UI/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/UI/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/UI/VacationList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/UI/VacationList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/database/vacationDatabaseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/database/vacationDatabaseBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/gotravelapp/entities/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,34 +159,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.app.executor": "Run",
-    "ApkExportedModule": "GoTravelApp.app",
-    "ExportApk.ApkPathForGoTravelApp.app": "D:\\GoTravelApp\\app",
-    "Notification.DisplayName-DoNotAsk-WindowsDefender": "Microsoft Defender may affect IDE",
-    "Notification.DoNotAsk-WindowsDefender": "true",
-    "PROJECT_TRUSTED_KEY": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "WorkingBranch",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "D:/d424-software-engineering-capstone/app/src/main/java",
-    "last_opened_file_path": "D:/GoTravelApp",
-    "settings.editor.selected.configurable": "emulator"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;ApkExportedModule&quot;: &quot;GoTravelApp.app&quot;,
+    &quot;ExportApk.ApkPathForGoTravelApp.app&quot;: &quot;D:\\GoTravelApp\\app&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-WindowsDefender&quot;: &quot;Microsoft Defender may affect IDE&quot;,
+    &quot;Notification.DoNotAsk-WindowsDefender&quot;: &quot;true&quot;,
+    &quot;PROJECT_TRUSTED_KEY&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;WorkingBranch&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/d424-software-engineering-capstone/app/src/main/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GoTravelApp&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "ExportApk.BuildVariants": [
-      "debug",
-      "release"
+  &quot;keyToStringList&quot;: {
+    &quot;ExportApk.BuildVariants&quot;: [
+      &quot;debug&quot;,
+      &quot;release&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="android.template.1584966629">
       <recent name="com.example.gotravelapp.UI" />
@@ -304,54 +277,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750180570987</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Comments out lines 64, 66, 69. Fixes line 42 to have the correct name for excursionDate. Adds line 41 to include vacationID.">
-      <option name="closed" value="true" />
-      <created>1750640682235</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1750640682235</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Adds additional vacation sample on line 61. &#10;Removes id's from new sample data (lines 59,63,65) so the database will auto increment it on its own.">
-      <option name="closed" value="true" />
-      <created>1750640790007</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1750640790007</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Changes database version (line 15) of vacationDatabaseBuilder.java.&#10;Adds additional Vacation method to Vacation.java for auto increment to function correctly (lines 17-32). Regenerate getters and setters.">
-      <option name="closed" value="true" />
-      <created>1750640920787</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1750640920787</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Changes database version (line 15) of vacationDatabaseBuilder.java.&#10;Adds additional Vacation method to Vacation.java for auto increment to function correctly (lines 17-32). Regenerate getters and setters.&#10;Adds method setExcursions to line 76 in VacationAdapter.java.">
-      <option name="closed" value="true" />
-      <created>1750641003590</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1750641003590</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Fixes typo on lines 134, 135">
-      <option name="closed" value="true" />
-      <created>1750686523931</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1750686523931</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Declares variables in ExcursionDetails.java (lines 40 - 49)&#10;Adds save, delete, share and notify options.&#10;Adds datePickerDialog method (lines 78 - 87)">
-      <option name="closed" value="true" />
-      <created>1750711976814</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1750711976814</updated>
     </task>
     <task id="LOCAL-00027" summary="Declares numAlert line 18">
       <option name="closed" value="true" />
@@ -697,7 +622,55 @@
       <option name="project" value="LOCAL" />
       <updated>1751564067089</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Creates a new image for my app.">
+      <option name="closed" value="true" />
+      <created>1751565073889</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1751565073889</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Creates a new image for my app when it boots up.">
+      <option name="closed" value="true" />
+      <created>1751565091811</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1751565091811</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Updates AndroidManifest.xml with RegisterActivity (lines 17-21)">
+      <option name="closed" value="true" />
+      <created>1751565137077</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1751565137077</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Adds userDAO to vacationDatabaseBuilder.java (line 22). &#10;Updates database version (line 17).">
+      <option name="closed" value="true" />
+      <created>1751565188189</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1751565188189</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Edits image view formatting for activity_login.xml.">
+      <option name="closed" value="true" />
+      <created>1751565227253</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1751565227253</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Adds all other background files from res, gradle and mipmap.">
+      <option name="closed" value="true" />
+      <created>1751565574967</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1751565574967</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -712,12 +685,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="B3 a.  Display a detailed view of the vacation, including all vacation details. This view can also be used to add and update the vacation information. (activity_vacation_details.xml)&#10;   &#10;   &#10;   VacationDetails.java:&#10;   &#10;   b.  Enter, edit, and delete vacation information. (lines 215-249 to save and update) (lines 251-268 to delete) &#10;   &#10;   c.  Include validation that the input dates are formatted correctly. (lines 222-225)&#10;   &#10;   d.  Include validation that the vacation end date is after the start date. (lines 232-235)&#10;   &#10;   e.  Include an alert that the user can set which will trigger on the start and end date, displaying the vacation title and whether it is starting or ending. (lines 270-306)&#10;   &#10;   f.  Include sharing features so the user can share all the vacation details via a sharing feature (either e-mail, clipboard or SMS) that automatically populates with the vacation details. (lines 308-327)&#10;   &#10;   g.  Display a list of excursions associated with each vacation.(line 318,320)" />
-    <MESSAGE value="Adds notification and share items to menu_vacation_details.xml. (line 12,13) and (line 15,16)." />
-    <MESSAGE value="vacationDatabaseBuilder.java: updates database version on line 15.&#10;&#10;ExcursionAdapter.java: updates &quot;excursionName&quot; on line 40." />
-    <MESSAGE value="MyReceiver.java: updates for vacation alerts: line 29. &#10;&#10;MainActivity.java: removes unused imports." />
-    <MESSAGE value="cleans up whitespace and updates manifest" />
-    <MESSAGE value="Adds excursion prompt for when a new excursion is added. line 267&#10;&#10;Updates vacationDatabaseBuilder.java version on line 15&#10;&#10;Creates APK" />
     <MESSAGE value="Adds README.md file" />
     <MESSAGE value="Adds .zip to repo" />
     <MESSAGE value="Adds missing files." />
@@ -737,7 +704,13 @@
     <MESSAGE value="Adds filesHashes and History files. Adds dimens.xml." />
     <MESSAGE value="Creates new activity RegisterActivity.java with input fields for username and password. &#10;activity_register.xml adds style and formatting.&#10;Saves new users in Room database inside LoginActivity.java (lines 66-69)" />
     <MESSAGE value="Adds user information to Repository.java (lines 120-133)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds user information to Repository.java (lines 120-133)" />
+    <MESSAGE value="Creates a new image for my app." />
+    <MESSAGE value="Creates a new image for my app when it boots up." />
+    <MESSAGE value="Updates AndroidManifest.xml with RegisterActivity (lines 17-21)" />
+    <MESSAGE value="Adds userDAO to vacationDatabaseBuilder.java (line 22). &#10;Updates database version (line 17)." />
+    <MESSAGE value="Edits image view formatting for activity_login.xml." />
+    <MESSAGE value="Adds all other background files from res, gradle and mipmap." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds all other background files from res, gradle and mipmap." />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">

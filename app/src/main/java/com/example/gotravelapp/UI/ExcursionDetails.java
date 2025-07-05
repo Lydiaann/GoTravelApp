@@ -8,17 +8,17 @@ import android.content.Context;
 import android.content.Intent;
 import android.icu.text.SimpleDateFormat;
 import android.os.Bundle;
-import android.util.Log;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
+
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.DatePicker;
+
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.TextView;
+
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -45,8 +45,7 @@ public class ExcursionDetails extends AppCompatActivity {
     Repository repository;
     DatePickerDialog.OnDateSetListener excursionDate;
     final Calendar myCalendarStart = Calendar.getInstance();
-//    String excursionDate;
-//    Button editExcursionDate;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -243,7 +242,7 @@ public class ExcursionDetails extends AppCompatActivity {
                             repository.getAllExcursions().get(repository.getAllExcursions().size() - 1).getExcursionID() + 1;
                     updatedExcursion.setExcursionID(newID);
                     repository.insert(updatedExcursion);
-                    Toast.makeText(this, "Excursion added", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Excursion " + excursionName + " was added", Toast.LENGTH_SHORT).show();
                 } else {
                     repository.update(updatedExcursion);
                 }
